@@ -1,1 +1,29 @@
 @import "tailwindcss";
+
+@theme {
+    --color-sena: #39a900;
+    --color-sena-dark: #2d8500;
+    --color-text-secondary: #64748b;
+    --color-texto-tenue: #64748b;
+    --color-texto-medio: #475569;
+    --color-superficie: #e2e8f0;
+    --color-exito-fondo: #f0fdf4;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-width: 320px;
+    margin: 0;
+    background: #fff;
+    color: #1f2937;
+    font-family: "Plus Jakarta Sans", "Segoe UI", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+    background: #dcfce7;
+    color: #166534;
+}
